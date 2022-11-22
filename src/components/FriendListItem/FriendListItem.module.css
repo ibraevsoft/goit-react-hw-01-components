@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: transform 500ms;
+}
+
+.item:hover {
+  box-shadow: 0 2px 2px 5px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 0.5px solid lightgray;
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
+
+.offline {
+    composes: status;
+    background-color: red;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.name {
+    width: 48px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,92 @@
+.profile {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: transform 500ms;
+}
+
+.profile:hover {
+    box-shadow: 0 2px 2px 5px rgba(0, 0, 0, 0.1),
+        0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: grey;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: lightblue;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: grey;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+}
+
